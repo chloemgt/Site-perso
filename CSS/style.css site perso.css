@@ -1,0 +1,35 @@
+/*Haut de Page*/
+
+html,body {
+    margin: 0%;
+    padding: 0%;
+} 
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10;
+    padding: 0%;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10;
+    padding: 0;
+    font-size: 30px;
+    
+}
