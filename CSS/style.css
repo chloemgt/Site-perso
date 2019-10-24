@@ -7,7 +7,7 @@ html,body {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: darkgray;
+    color: rgba(175, 142, 98, 0.795);
     vertical-align: middle;
     text-align: center;
     margin: 10;
@@ -22,7 +22,7 @@ section#resau
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: plum;
+    color:rgb(76, 112, 101);
     vertical-align: middle;
     text-align: center;
     margin: 10;
@@ -30,4 +30,7 @@ h3 {
     font-size: 30px;
     
 }
- 
+ #fond{
+     background-image: url("../img/modele-sans-couture-aquarelle-branches-vertes_3470-388.jpg");
+     height: 200px;
+ }
