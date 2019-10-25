@@ -1,9 +1,9 @@
 /*Haut de Page*/
 
-html,body {
+html {
     margin: 0%;
     padding: 0%;
-    background-color:rgba(133, 100, 39, 0.274);
+   ;
 } 
 
 h1 {
@@ -11,14 +11,11 @@ h1 {
     color: rgba(53, 42, 28, 0.233);
     vertical-align: middle;
     text-align: center;
-    margin: 10;
+    margin: 10px;
     padding: 0%;
     font-size: 40px;
 }
 
-#monhistoirepersonnelle{
-    <article>
-}
 
  
 
@@ -30,7 +27,7 @@ h3 {
     color: rgba(71, 105, 89, 0.904);
     vertical-align: middle;
     text-align: center;
-    margin: 10;
+    margin: 10px;
     padding: 0;
     font-size: 30px;
     
@@ -41,6 +38,7 @@ a{
 
 }
  #fond{
-     background-image: url("../img/modele-sans-couture-aquarelle-branches-vertes_3470-388.jpg");
-     height: 200px;
- }
+     background-color: burlywood    ;
+     height: auto;}
+
+ 
