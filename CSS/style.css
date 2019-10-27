@@ -8,7 +8,7 @@ html {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(53, 42, 28, 0.233);
+    color: rgba(255, 255, 255, 0.233);
     vertical-align: middle;
     text-align: center;
     margin: 10px;
@@ -24,7 +24,7 @@ h1 {
 
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgba(71, 105, 89, 0.904);
+    color: rgba(167, 138, 146, 0.904);
     vertical-align: middle;
     text-align: center;
     margin: 10px;
@@ -38,7 +38,9 @@ a{
 
 }
  #fond{
-     background-color: burlywood    ;
-     height: auto;}
+     background-image: url("CSS\img\carte-florale_53876-91231.jpg");
+     height: auto;
+     background-color: rgb(236, 226, 204)    ;
+     height: 175px;}
 
  
