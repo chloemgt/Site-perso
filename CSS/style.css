@@ -8,18 +8,13 @@ html {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(255, 255, 255, 0.233);
+    color: rgba(12, 11, 11, 0.027);
     vertical-align: middle;
     text-align: center;
     margin: 10px;
     padding: 0%;
     font-size: 40px;
 }
-
-
- 
-
-
 
 
 h3 {
@@ -32,15 +27,36 @@ h3 {
     font-size: 30px;
     
 }
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    height: 10vh;
+    position: sticky;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    l
+}
 a{
     text-decoration:none;
     color:rgba(47, 51, 50, 0.452);
 
 }
  #fond{
-     background-image: url("CSS\img\carte-florale_53876-91231.jpg");
-     height: auto;
-     background-color: rgb(236, 226, 204)    ;
-     height: 175px;}
+    background: url(/CSS/img/carte-florale_53876-91231.jpg);
+ height: 100%;
+     height: 100%;}
 
  
