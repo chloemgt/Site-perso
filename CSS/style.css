@@ -6,13 +6,20 @@ html {
    
 } 
 
+header {
+    background-image: url("CSS/img/back.jpg");
+    height: 500px;
+    display: block;
+
+}
+
 body {
-    background-color: rgba(197, 197, 197, 0.63);
+    background-color: black;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(12, 11, 11, 0.027);
+    color: white;
     vertical-align: middle;
     text-align: center;
     margin: 10px;
@@ -23,7 +30,7 @@ h1 {
 
 h3 {
     font-family:Georgia, Times, 'Times New Roman', serif;
-    color: rgba(167, 138, 146, 0.904);
+    color: white;
     vertical-align: middle;
     text-align: center;
     margin: 10px;
@@ -62,16 +69,14 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     vertical-align: middle;
     text-align: center;
+    color: white;
     margin: 0%;
     padding: 0%;
     font-size: 20px;
 }
 a{
     text-decoration:none;
-    color:rgba(47, 51, 50, 0.452);
+    color:white;
 
 }
- #fond{
-    background: url(/CSS/img/carte-florale_53876-91231.jpg);
-    height: 400%;
-     background-size: 150px;
+
