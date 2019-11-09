@@ -3,4 +3,45 @@
 html {
     margin: 0%;
     padding: 0%;
+    background-color:rgb(156, 153, 153);
+}
+
+ #fond{
+   background-image: url(CSS\img\bannière.jpg);
+   height: auto;
+ } 
+
+ .wrapper{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-auto-rows: 100px;
+ }
+.box1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: white;
+  border: 5px solid black;
+}
+.box2{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color:white;
+  border: 5px solid black;
+  grid-auto-rows: 200px;
+}
+.box3{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  background-color: burlywood;
+  border: 5px solid black;
+}
+.box4{
+ 
+  background-color: darkblue;
 }
