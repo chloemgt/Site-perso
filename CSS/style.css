@@ -8,7 +8,8 @@ html {
 
  #fond{
    background-image: url(CSS\img\bannière.jpg);
-   height: auto;
+   height: 200px;
+   width: 200%;
  } 
 
  .wrapper{
@@ -21,8 +22,9 @@ html {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-color: white;
-  border: 5px solid black;
+  background-image: url(CSS/img/bannière.jpg);
+  height: 200px;
+  width: 200%;
 }
 .box2{
   grid-column-start: 1;
