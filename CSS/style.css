@@ -22,9 +22,8 @@ html {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url(CSS/img/bannière.jpg);
-  height: 200px;
-  width: 200%;
+  background-image: url(CSS\img\bannière.jpg);
+  border: 5px solid black
 }
 .box2{
   grid-column-start: 1;
@@ -42,12 +41,12 @@ html {
   width: 100%;
   grid-row-start: 4;
   grid-row-end: 4;
-  background-color: burlywood;
+  background-color: white;
   border: 5px solid black;
 }
 .box4{
  
-  background-color: bisque;
+  background-color: white;
   border: 5px solid black;
   grid-column-start: 2;
   grid-column-end: middle;
