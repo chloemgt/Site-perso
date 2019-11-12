@@ -19,6 +19,7 @@ html {
   grid-row-end: 3;
   background-image: url(CSS\img\bandeau.jpg);
 
+
 }
 
 .bannière{
@@ -32,6 +33,16 @@ html {
   grid-row-end: 4;
   border: 5px solid black;
   grid-auto-rows: 500px;
+}
+.icon{
+  height: 50px;
+  width: 50px;
+}
+.icon2{
+  height: 50px;
+  width: 50px;
+  margin-right: center;
+  margin-left: center;
 }
 .box3{
   grid-column-start: 1;
