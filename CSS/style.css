@@ -6,11 +6,6 @@ html {
     background-color:rgb(156, 153, 153);
 }
 
- #fond{
-   background-image: url(CSS\img\bannière.jpg);
-   height: 200px;
-   width: 200%;
- } 
 
  .wrapper{
    display: grid;
@@ -22,15 +17,19 @@ html {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url(CSS\img\bannière.jpg);
-  border: 5px solid black
+  background-image: url(CSS\img\bandeau.jpg);
+
+}
+
+.bannière{
+  height: 200px;
+  width: 100%;
 }
 .box2{
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-color:white;
   border: 5px solid black;
   grid-auto-rows: 500px;
 }
@@ -41,22 +40,20 @@ html {
   width: 100%;
   grid-row-start: 4;
   grid-row-end: 4;
-  background-color: white;
-  border: 5px solid black;
+  border: 5px solid black
+
 }
 .box4{
- 
-  background-color: white;
-  border: 5px solid black;
+
   grid-column-start: 2;
   grid-column-end: middle;
   grid-row-start: 4;
   height: 500px;
   width: 100%;
+  border: 5px solid black;
 }
 .box5{
 
-  background-color: white;
   grid-column-start: 1;
   grid-column-end: middle;
   grid-row-start: 9;
@@ -65,7 +62,6 @@ html {
   border: 5px solid black
 }
 .box6{
-  background-color: white;
   grid-column-start: 1;
   grid-column-end: auto;
   grid-row-start: 12;
