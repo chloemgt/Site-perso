@@ -31,18 +31,17 @@ html {
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
-  border: 5px solid black;
   grid-auto-rows: 500px;
+  display: flex;
+  flex-direction: row;
 }
+
+
 .icon{
+  padding-left:1350% ;
   height: 50px;
   width: 50px;
-}
-.icon2{
-  height: 50px;
-  width: 50px;
-  margin-right: center;
-  margin-left: center;
+
 }
 .box3{
   grid-column-start: 1;
@@ -54,8 +53,13 @@ html {
   border: 5px solid black
 
 }
-.box4{
+#text1{
+  
+  width: 30%;
+}
 
+.box4{
+  
   grid-column-start: 2;
   grid-column-end: middle;
   grid-row-start: 4;
@@ -63,11 +67,14 @@ html {
   width: 100%;
   border: 5px solid black;
 }
+.boximage{
+  padding-top: 30%;
+}
 .box5{
 
   grid-column-start: 1;
-  grid-column-end: middle;
-  grid-row-start: 9;
+  grid-column-end: 2;
+  grid-row-start: 15;
   height: 300px;
   width: 300%;
   border: 5px solid black
@@ -75,7 +82,7 @@ html {
 .box6{
   grid-column-start: 1;
   grid-column-end: auto;
-  grid-row-start: 12;
+  grid-row-start: 18;
   width: 300%;
   border: 5px solid black
 }
