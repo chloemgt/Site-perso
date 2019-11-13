@@ -67,9 +67,13 @@ html {
   width: 100%;
   border: 5px solid black;
 }
-.boximage{
-  padding-top: 30%;
+
+div#slider{
+  width: 30%;
+  max-width: 50px;
+  padding-right: 50%;
 }
+
 .box5{
 
   grid-column-start: 1;
