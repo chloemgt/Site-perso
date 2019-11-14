@@ -5,7 +5,14 @@ html {
     padding: 0%;
     background-color:rgb(2, 2, 2);
 }
-
+@media all and (max-width:500px){
+  .h1{
+    color: black;
+  }
+}
+.body{
+  font-family:'Roboto', sans-serif;
+}
 
  .wrapper{
    display: grid;
