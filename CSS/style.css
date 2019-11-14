@@ -40,3 +40,15 @@ h2{
   width: 100%;
   border: 3px solid black;
 }
+.box8{
+  padding: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  
+}
+.deco{
+  padding: 3%;
+  padding-left: 40% ;
+  height: 60px;
+  width: 60px;
+}
