@@ -3,7 +3,7 @@
 html {
     margin: 0%;
     padding: 0%;
-    background-color:rgb(156, 153, 153);
+    background-color:rgb(2, 2, 2);
 }
 
 
@@ -50,12 +50,16 @@ html {
   width: 100%;
   grid-row-start: 4;
   grid-row-end: 4;
-  border: 5px solid black
+  border: 5px solid white;
 
+}
+h1{
+  color: aliceblue;
 }
 #text1{
   
   width: 30%;
+  color: white;
 }
 
 .box4{
@@ -65,13 +69,20 @@ html {
   grid-row-start: 4;
   height: 500px;
   width: 100%;
-  border: 5px solid black;
+  border: 5px solid white;
 }
-
-div#slider{
-  width: 30%;
-  max-width: 50px;
-  padding-right: 50%;
+.slider{
+  width: 500px;
+  overflow: hidden;
+  margin: 150px auto;
+}
+.slides{
+  width: calc(500px * 5);
+  height: calc(30% * 5);
+}
+.slide{
+  float: left;
+  
 }
 
 .box5{
@@ -81,12 +92,12 @@ div#slider{
   grid-row-start: 15;
   height: 300px;
   width: 300%;
-  border: 5px solid black
+  border: 5px solid white;
 }
 .box6{
   grid-column-start: 1;
   grid-column-end: auto;
   grid-row-start: 18;
   width: 300%;
-  border: 5px solid black
+  border: 5px solid white;
 }
