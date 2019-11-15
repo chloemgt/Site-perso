@@ -52,3 +52,8 @@ h2{
   height: 60px;
   width: 60px;
 }
+.box12{
+  padding: 5%;
+  background-color: #b1570e8c;
+  text-align: justify;
+}
