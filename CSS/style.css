@@ -15,6 +15,7 @@ body{
   width: 100%;
 }
 .icon{
+  padding: 3%;
   padding-left: 13% ;
   height: 50px;
   width: 50px;
@@ -23,6 +24,7 @@ h1{
   color: rgba(0, 0, 0, 0.644);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 100%;
+  padding: 3%;
 }
 .box4{
   padding: 5%;
@@ -34,6 +36,10 @@ h2{
   color: rgba(0, 0, 0, 0.644);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 100%;
+}
+h4{
+  text-align: center;
+  font-family: cursive;
 }
 .image{
   height: 300px;
@@ -47,13 +53,32 @@ h2{
   
 }
 .deco{
-  padding: 3%;
+  padding: 4%;
   padding-left: 40% ;
-  height: 60px;
+  height: 70px;
   width: 60px;
 }
+.box11{
+  padding: 3%;
+}
+
 .box12{
   padding: 5%;
   background-color: #b1570e8c;
   text-align: justify;
+}
+.exposition{
+  padding: 3%;
+  height: 230px;
+  width: 100%;
+}
+.box13{
+  padding: 3%;
+}
+.boxZ{
+  
+  text-align: center;
+}
+.active{
+  color: black;
 }
