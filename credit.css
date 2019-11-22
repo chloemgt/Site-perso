@@ -1,0 +1,26 @@
+/*Haut de Page*/
+
+html,body {
+    margin: 0%;
+    padding: 0%
+}
+.wrapper{
+    display: grid;
+}
+
+
+.crédits{
+    background-color: #b1570e8c;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.644);
+  }
+
+.box1{
+    background-color: gainsboro;
+}
+
+.deco{
+   height: 500px;
+    width: 500%;
+}
