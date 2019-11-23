@@ -11,7 +11,9 @@ html,body {
 
 .crédits{
     background-color: #b1570e8c;
+    padding: 5%;
      text-align: center;
+     text-align: justify;
      font-family: 'Roboto', sans-serif;
     color: rgba(0, 0, 0, 0.644);
   }
@@ -21,6 +23,29 @@ html,body {
 }
 
 .deco{
-   height: 500px;
-    width: 500%;
+    padding: 0%;
+   height: 130px;
+    width: 100%;
+}
+.logo{
+    padding: 8%;
+    margin: 4%;
+    padding-left: 40% ;
+    height: 70px;
+    width: 60px;
+  }
+
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #b1570e8c;
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:#b1570e8c; 
+}
+a:hover{
+    color: teal;
 }

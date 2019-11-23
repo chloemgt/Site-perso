@@ -55,7 +55,8 @@ h4{
   
 }
 .deco{
-  padding: 4%;
+  padding: 8%;
+  margin: 4%;
   padding-left: 40% ;
   height: 70px;
   width: 60px;
@@ -83,6 +84,7 @@ h4{
 .boxZ{
   padding: 10%;
   padding-bottom: 10%;
+  background-color: #b1570e8c;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: rgba(0, 0, 0, 0.644);
@@ -95,4 +97,22 @@ h4{
    text-align: center;
    font-family: 'Roboto', sans-serif;
   color: rgba(0, 0, 0, 0.644);
+}
+.boxend{
+  text-align: center;
+}
+
+footer{
+  padding: 5%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color:#b1570e8c; 
+}
+a:hover{
+  color:#39665b;
 }
