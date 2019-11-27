@@ -18,6 +18,9 @@ html,body {
     color: rgba(0, 0, 0, 0.644);
   }
 
+.remerciements{
+    font-style: italic;
+}
 .box1{
     background-color: gainsboro;
 }
@@ -49,3 +52,21 @@ a{
 a:hover{
     color: teal;
 }
+
+
+@media screen and ( min-width:900px){
+    .deco{
+        padding: 0%;
+       height: 200px;
+        width: 100%;
+    }
+    .logo{
+        padding: 8%;
+        margin: 4%;
+        padding-left: 40% ;
+        height: 100px;
+        width: 100px;
+      }
+
+}
+
