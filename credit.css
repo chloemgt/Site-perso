@@ -11,7 +11,7 @@ html,body {
 
 .crédits{
     background-color: #b1570e8c;
-    padding: 5%;
+    margin-top:-0.36%;
      text-align: center;
      text-align: justify;
      font-family: 'Roboto', sans-serif;
@@ -23,13 +23,11 @@ html,body {
 }
 .box1{
     background-color: gainsboro;
+    padding:0;
+
 }
 
-.deco{
-    padding: 0%;
-   height: 130px;
-    width: 100%;
-}
+
 .logo{
     padding: 8%;
     margin: 4%;
